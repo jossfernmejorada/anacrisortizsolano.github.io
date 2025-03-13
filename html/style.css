@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header, nav, footer, main{
+    width: 100%;
+    background-color: #FE7171;
+    color: #FBFFE4;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:cursive;
+    overflow: auto;
+}
+header, footer{
+    text-align: center;
+}
+nav{
+    height: auto;
+    background-color: #FFB0B0;
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    width: 10%;
+    min-width: 120px;
+    list-style-type: none;
+    background-color: #335D2D;
+    color: #7EA04D;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav ul li a:link, nav ul li a:visited{
+    color: #FBFFE4;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: #335D2D;
+    color: #FFB0B0;
+    width: 95px;
+    font-size: 18px;
+}
+nav ul li:hover a {
+    color: #FFB0B0;
+}
+main{
+    height: auto;
+    background-color: #FBFFE4;
+}
+section{
+    width: 80%;
+    height: auto;
+    background-color: #FFB0B0;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    font-size: 12pt;
+}
+h2, p{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+h2{
+    color: #335D2D;
+}
+#tabla_1{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabla_1 th, #tabla_1 td, #tabla_2 th, #tabla_2 td, #tabla_3 th, #tabla_3 td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#tabla_1 th, #tabla_2 th, #tabla_3 th{
+    background-color: #335D2D;
+    color: #FBFFE4;
+}
+#tabla_1 td{
+    background-color: #7EA04D;
+}
+#tabla_2{
+    width: 100%;
+    border-style: solid;
+    border-color: #FFB0B0;
+    border: 5px solid #FFB0B0;
+    border-collapse: collapse;
+}
+#tabla_2 th, #tabla_2 td{
+    border: 1px solid #FFB0B0;
+}
+#tabla_2 tbody tr:nth-child(even){
+    background-color: #335D2D;
+    color: #FBFFE4;
+}
+#tabla_2 tbody tr:nth-child(odd){
+    background-color: #7EA04D;
+    color: #FBFFE4;
+}
+#tabla3_{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #7EA04D;
+}
+#tabla_3 td:hover{
+    background-color: #FBFFE4;
+    color: #FFB0B0;
+}
+#tabla_3 th{
+    height: 60px;
+}
+#tabla_3 th, #tabla_3 td{
+    border: 2px solid #335D2D;
+    border-collapse: collapse;
+}
+#tabla_3 tr{
+    height: 50px;
+    padding-left: 10px;
+}
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+img{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+imagenes_box{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.imagen_flotante_izq{
+    width: 250px;
+    margin: 10px;
+    float: left;
+}
+.imagen_flotante_der{
+    width: 250px;
+    margin: 10px;
+    float: right;
+}
+clearfix{
+    clear: both;
+}.fondo{
+    background-image: url(../imagenes/Fondo.jpg);
+    background-size:cover;
+}
+.imagen_enlace{
+    width: 20%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.img-borde-redondo{
+    border-radius: 50%;
+}
+.section_filtros{
+    text-align: center;
+}
+.section_filtros img{
+    width: 25%; 
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+form{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background-color: darkseagreen;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+label{
+    color:antiquewhite;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+input[type=text],input[type=password]{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: cornsilk;
+}
+input[type=submit]{
+    width: 20%;
+    margin-bottom: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    background-color: brown;
+    color:aqua;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+}
+input[type=text]:focus, input[type=password]:focus{
+    color:beige;
+    background-color: darkgoldenrod;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    height: auto; 
+}
+
+.social-button {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
